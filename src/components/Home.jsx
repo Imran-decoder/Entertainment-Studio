@@ -32,8 +32,8 @@ const Home = () => {
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div className='bg-black h-screen w-screen bg-opacity-10 p-20 pt-14 text-white'>
-                <div className="flex flex-col justify-between h-full w-full text-center bg-temp bg-contain bg-center">
+            <div className='bg-black h-[80vh] w-screen bg-opacity-10 pt-0 pb-2 p-14  text-white'>
+                <div className="flex flex-col justify-between h-full w-full text-center bg-temp bg-contain bg-center bg-no-repeat">
                     <div>
                         <h1 className='font-serif font-bold size-18 text-2xl text-white pt-16'>
                             WE PROVIDE A HUGE NUMBER OF CONTENT, SO YOU NEVER HAVE TO STOP
