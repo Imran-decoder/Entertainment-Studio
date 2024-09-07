@@ -10,6 +10,7 @@ import * as ReactDOM from "react-dom/client";
 import Game from './components/game.jsx'
 import Footer from './components/Footer.jsx'
 import Movie from './components/movie.jsx'
+import Sign_in from './components/sign_in.jsx'
 
 
 const router= createBrowserRouter([
@@ -24,6 +25,10 @@ const router= createBrowserRouter([
   {
     path : "/game",
     element :<><Navbar/><Game/><Footer/></>
+  },
+  {
+    path : "/sign-in",
+    element :<><Sign_in/></>
   },
 
 ])
