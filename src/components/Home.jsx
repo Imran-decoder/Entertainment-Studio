@@ -17,9 +17,9 @@ const Home = () => {
                         <h1 className='font-sans font-bold size-18 text-2xl hover:text-3xl'>LuxeVista</h1>
                         <div className='flex space-x-8 m-5'>
 
-                            <Link className='p-4 border-2 border-red-900 rounded-md hover:text-xl ' to="/game"><li><h1>PRODUCT </h1></li></Link>
-                            <Link className='p-4 border-2 border-red-900 rounded-s-full hover:text-xl ' to="/"><li><h1>SIGN IN</h1></li></Link>
-                            <Link className='p-4 border-2 border-red-900 rounded-r-full hover:text-xl ' to="/"><li><h1>SIGN UP</h1></li></Link>
+                            <Link className='p-4 border-2 border-red-900 rounded-md hover:text-xl ' to="/movie"><li><h1>PRODUCT </h1></li></Link>
+                            <Link className='p-4 border-2 border-red-900 rounded-s-full hover:text-xl ' to="/sign-in"><li><h1>SIGN IN</h1></li></Link>
+                            <Link className='p-4 border-2 border-red-900 rounded-r-full hover:text-xl ' to="/sign-in"><li><h1>SIGN UP</h1></li></Link>
                         </div>
                     </div>
                 </nav>
@@ -32,6 +32,7 @@ const Home = () => {
                     Your browser does not support the video tag.
                 </video>
             </div>
+
             <div className='bg-black h-screen w-screen bg-opacity-10 p-20 pt-14 text-white'>
                 <div className="flex flex-col justify-between h-full w-full text-center bg-temp bg-contain flex-wrap bg-center">
                     <div>
@@ -162,6 +163,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+         
 
 
         </>

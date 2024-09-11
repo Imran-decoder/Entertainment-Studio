@@ -1,4 +1,4 @@
-body {
+/* body {
     --black: #000000;
     --ash-black: #222;
     --white: #fafafa;
@@ -62,6 +62,7 @@ canvas {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: pixelated;
     image-rendering: optimize-contrast;
+
 }
 
 .game-container {
@@ -107,3 +108,4 @@ canvas {
     background-color: #888;
   }
   
+

@@ -21,8 +21,8 @@ const Navbar = () => {
         <Link to="/"><li><h1>HOME</h1></li></Link>
         <Link to="/movie"><li><h1>MOVIE</h1></li></Link>
         <Link to="/game"><li><h1>GAME</h1></li></Link>
-        <Link to="/"><li><h1>LOGIN</h1></li></Link>
-        <Link to="/"><li><h1>SIGN IN</h1></li></Link>
+        <Link to="/sign-in"><li><h1>LOGIN</h1></li></Link>
+        {/* <Link to="/sign-in"><li><h1>SIGN IN</h1></li></Link> */}
       </nav>
     </div>
   );
