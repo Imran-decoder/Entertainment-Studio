@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 
-
 function sign_in() {
   return (<> 
   <div className='bg-signimg bg-cover w-screen h-screen text-white flex justify-center'>
@@ -20,7 +19,7 @@ function sign_in() {
     )
 }
 
-// export default sign_in
+export default sign_in
 
 // import React, { useState } from "react";
 
