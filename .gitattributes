@@ -1,3 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-src/assets/game2.mp4 filter=lfs diff=lfs merge=lfs -text
-src/assets/game3.mp4 filter=lfs diff=lfs merge=lfs -text
